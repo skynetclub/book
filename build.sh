@@ -1,13 +1,12 @@
 #!/bin/bash
-# git submodule init
-# git submodule update #skynetwiki/FAQ.md 格式有问题
-rm -rf ../book_gh-pages
+git submodule init
+git submodule update #skynetwiki/FAQ.md 格式有问题
 
 gitbook init
-gitbook build --output=../book_gh-pages
+gitbook build
 
 DATA_SECOND=`date +%Y-%m-%d-%H-%M-%S`
-cd ../book_gh-pages
+cd ./_book || exit 0
 rm -rf ./skynetwiki/.git
 rm -rf ./build.sh
 git init
