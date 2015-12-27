@@ -17,7 +17,7 @@ QQ群：340504014
 
 本书采用gitbook，内容由gitbub.com托管，使用markdown格式编写，任何人可以fork和提交pull request。
 
-项目内容在[talkbox分支](https://github.com/forthxu/talkbox/tree/gh-pages-source)
+项目内容在[skynetclub book](https://github.com/skynetclub/book)
 
 需要生成网站可阅读[gitbook的使用](http://dockerpool.com/static/books/gitbook_cn/index.html)了解。
 
